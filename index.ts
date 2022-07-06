@@ -96,6 +96,7 @@ const ctx = (
 ).getContext('2d');
 const myChart = new Chart<'line'>(ctx, config);
 
+// this is code from our app to throttle update requests, as we show multiple curves with rapidly changing data
 function requestChartUpdate(
   chart: Chart,
   updateMode?:
