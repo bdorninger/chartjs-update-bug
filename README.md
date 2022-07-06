@@ -8,8 +8,8 @@ Subsequently, LineController checks for visible points (getStartAndCountOfVisibl
 
 If then the user interacts with the chart (hover / click), an Error is thrown, as evaluation functions (e.g. for displaying tooltips) try to access a PointElement's options, which are undefined.
 
-** Error in /turbo_modules/chart.js@3.7.1/dist/chart.js (9319:84) **
-Cannot read properties of undefined (reading 'hitRadius')
+**Error in /turbo_modules/chart.js@3.7.1/dist/chart.js (9319:84)**
+**Cannot read properties of undefined (reading 'hitRadius')**
 
 This is causing the chart / app to crash.
 
