@@ -1,5 +1,7 @@
 ### Chart.js 3.7.1 update problem with changing data
 
+Edit on [Stackblitz](https://stackblitz.com/edit/typescript-w1ahqk).
+
 Context: Simple line chart with point objects, fixed scales (min, max)
 
 An update of dataset's data with additional points causes chart.js to synchronously create empty PointElement instances (buildOrUpdateElements)
