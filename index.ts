@@ -90,7 +90,7 @@ const config: ChartConfiguration<'line'> = {
     },
   },
 };
-
+ 
 const ctx = (
   document.getElementById('myChart') as HTMLCanvasElement
 ).getContext('2d');
